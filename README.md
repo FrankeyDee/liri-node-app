@@ -35,7 +35,14 @@ To retrieve data, the requests sent uses the axios package for Bands in Town, Sp
             - Name of venue
             - Venue location
             - Date of event in the format of "MM/DD/YYYY" (using 'moment' to help format date)
-4. Include screenshots, gifs or videos of the app functioning
+4. Include screenshots, gifs or videos of the app functioning 
+            <b>concert-this</b><br>
+                <object height="350" width="425">
+                <param name="movie" value="https://youtu.be/5OZZk-i0reE">
+                <param name="wmode" value="transparent">
+                <embed height="350" src="https://youtu.be/5OZZk-i0reE type="application/x-shockwave-flash" width="425" wmode="transparent">
+                </object>
+            <br>
 5. Contain a link to a deployed version of the app
 6. Clearly list the technologies used in the app
 7. State your role in the app development
