@@ -52,7 +52,7 @@ function bandsInTown(value) {
 }
 
 function spotifySong(value) {
-    if(!value){
+    if(value === null || value === undefined){
         value = "The Sign";
     }
     spotify
@@ -95,5 +95,11 @@ function movieThis(value) {
 }
 
 function doThis(value) {
-    
+    fs.readFile("random.txt", "utf8", function(err, data) {
+        if (err) throw err;
+        var result = data.split(",");
+        command = result[0];
+        value = result[1];
+        spotifySong(value);
+    });
 }
