@@ -1,5 +1,83 @@
 require("dotenv").config();
 
 var keys = require("./keys.js");
+var moment = require("moment");
+var axios = require("axios");
+var fs = require("fs");
 
-var spotify = new spotify(keys.spotify);
+var Spotify = require("node-spotify-api");
+var spotify = new Spotify (keys.spotify);
+// console.log(keys.spotify);
+
+var command = process.argv[2];
+var value = process.argv[3];
+
+///Command Switch
+switch (command) {
+
+    case 'concert-this':
+        bandsInTown(value);
+        break;
+    
+    case 'spotify-this-song':
+        spotifySong(value);
+        break;
+    
+    case 'movie-this':
+        movieThis(value);
+        break;
+
+    case 'do-what-it-says':
+        doThis(value);
+        break;
+};
+
+///Functions
+function bandsInTown(value) {
+    axios.get("https://rest.bandsintown.com/artists/" + value + "/events?app_id=codingbootcamp")
+    .then(function(response) {
+        for(var i = 0; i < response.data.length; i++) {
+            var concertResults =
+            "----------------------------------------------" + 
+            "\nVenue Name: " + response.data[i].venue.name + 
+            "\nVenue Location: " + response.data[i].venue.city +
+            "\nDate: " + moment(response.data[i].datetime).format("MM/DD/YYYY");
+        
+        console.log(concertResults);
+        }
+    })
+    .catch(function(err) {
+        console.log(err);
+    });
+}
+
+function spotifySong(value) {
+    if(!value){
+        value = "The Sign";
+    }
+    spotify
+    .search({ type: 'track', query: value })
+    .then(function(response) {
+        for (var i = 0; i < 5; i++) {
+            var spotifyResults = 
+                "--------------------------------------------------------------------" +
+                    "\nArtist(s): " + response.tracks.items[i].artists[0].name + 
+                    "\nSong Name: " + response.tracks.items[i].name +
+                    "\nAlbum Name: " + response.tracks.items[i].album.name +
+                    "\nPreview Link: " + response.tracks.items[i].preview_url;
+                    
+            console.log(spotifyResults);
+        }
+    })
+    .catch(function(err) {
+        console.log(err);
+    });
+}
+
+function movieThis(value) {
+    
+}
+
+function doThis(value) {
+    
+}
