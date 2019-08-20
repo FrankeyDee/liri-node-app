@@ -22,16 +22,16 @@
    <br>**liri.js**: This is the main file containing codes for the variables and functions used by the listed commands above. It also contains codes to import information from the multiple files found in the same directory.
         
 #### 3. <i>Give start-to-finish instructions on how to run the app</i><br>
-    In the terminal, the following commands can be made to produce a result
-<br>**'node liri.js spotify-this-song (song title)' shows the following information about the song:**<br>
+   **In the terminal, the following commands can be made to produce a result**<br>
+###### 'node liri.js spotify-this-song (song title)' shows the following information about the song:<br>
     - Artist(s)
     - Song's Name
     - Preview Link to the song from Spotify
     - The album the song comes from
- <br>**'node liri.js concert-this (concert/artist/show title)' shows the following information about the concert:**<br>
+###### 'node liri.js concert-this (concert/artist/show title)' shows the following information about the concert:<br>
     - Name of venue
     - Venue location
-    - Date of event in the format of "MM/DD/YYYY" (using 'moment' to help format date)</ul><br>
+    - Date of event in the format of "MM/DD/YYYY" (using 'moment' to help format date)
 #### 4. Include screenshots, gifs or videos of the app functioning<br> 
    ###### CONCERT-THIS:
     https://youtu.be/5OZZk-i0reE
@@ -74,5 +74,6 @@
     <li>Visual Studio</li>
     <li>Terminal</li>
 </ul><br>    
+
 #### 7. State your role in the app development<br>
-Project Manager, Product Owner, Lead Developer, Lead Designer, Lead Analyst
+    Project Manager, Product Owner, Lead Developer, Lead Designer, Lead Analyst
