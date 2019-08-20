@@ -39,30 +39,35 @@ To retrieve data, the requests sent uses the axios package for Bands in Town, Sp
             - Date of event in the format of "MM/DD/YYYY" (using 'moment' to help format date)</ul><br>
 4. Include screenshots, gifs or videos of the app functioning<br> 
 CONCERT-THIS:<br>
-<img src="/videos/concert-this.gif" width="600" height="400"></img>
-<br>
 https://youtu.be/5OZZk-i0reE
 <br>
-SPOTIFY-THIS-SONG:<br>
-<img src="/videos/spotify-this-song.gif" width="600" height="400"></img>
+<img src="/videos/concert-this.gif" width="600" height="400"></img>
 <br>
+
+SPOTIFY-THIS-SONG:<br>
 https://youtu.be/t2haUSxl-qs
 <br>
-NO SONG:<br>
-<img src="/videos/no-song.gif" width="600" height="400"></img>
+<img src="/videos/spotify-this-song.gif" width="600" height="400"></img>
 <br>
+
+NO SONG:<br>
 https://youtu.be/qqwY4xxpqm0
 <br>
-NO MOVIE:<br>
-<img src="/videos/no-movie.gif" width="600" height="400"></img>
+<img src="/videos/no-song.gif" width="600" height="400"></img>
 <br>
+
+NO MOVIE:<br>
 https://youtu.be/0gf6Giit6gY
 <br>
-DO-WHAT-IT-SAYS:<br>
-<img src="/videos/do-it.gif" width="600" height="400"></img>
+<img src="/videos/no-movie.gif" width="600" height="400"></img>
 <br>
+
+DO-WHAT-IT-SAYS:<br>
 https://youtu.be/r6jSel97W1c
 <br>
+<img src="/videos/do-it.gif" width="600" height="400"></img>
+<br>
+
 5. Contain a link to a deployed version of the app<br>
 <a href="https://github.com/FrankeyDee/liri-node-app/blob/master/liri.js" target="_blank">https://github.com/FrankeyDee/liri-node-app/blob/master/liri.js</a>
 <br>
