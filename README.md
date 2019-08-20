@@ -38,31 +38,31 @@
             - Venue location
             - Date of event in the format of "MM/DD/YYYY" (using 'moment' to help format date)</ul><br>
 #### 4. Include screenshots, gifs or videos of the app functioning<br> 
-    CONCERT-THIS:<br>
+   ###### CONCERT-THIS:<br>
     https://youtu.be/5OZZk-i0reE
     <br>
     <img src="/videos/concert-this.gif" width="600" height="400"></img>
     <br>
 
-    SPOTIFY-THIS-SONG:<br>
+   ###### SPOTIFY-THIS-SONG:<br>
     https://youtu.be/t2haUSxl-qs
     <br>
     <img src="/videos/spotify-this-song.gif" width="600" height="400"></img>
     <br>
 
-    NO SONG:<br>
+   ###### NO SONG:<br>
     https://youtu.be/qqwY4xxpqm0
     <br>
     <img src="/videos/no-song.gif" width="600" height="400"></img>
     <br>
 
-    NO MOVIE:<br>
+   ###### NO MOVIE:<br>
     https://youtu.be/0gf6Giit6gY
     <br>
     <img src="/videos/no-movie.gif" width="600" height="400"></img>
     <br>
 
-    DO-WHAT-IT-SAYS:<br>
+   ###### DO-WHAT-IT-SAYS:<br>
     https://youtu.be/r6jSel97W1c
     <br>
     <img src="/videos/do-it.gif" width="600" height="400"></img>
