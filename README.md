@@ -2,12 +2,13 @@ This app is called LIRI (Language Interpretation and Recognition Interface). Wit
 
 To retrieve data, the requests sent uses the axios package for Bands in Town, Spotify and OMDB APIs.
 
-1. Clearly state the problem the app is trying to solve (i.e. what is it doing and why)
-    This app answers queries regarding concerts, songs, and movies by using the following commands:
-        'concert-this'
-        'spotify-this-song'
-        'movie-this'
-        'do-what-it-says'
+1. Clearly state the problem the app is trying to solve (i.e. what is it doing and why)<br>
+    This app answers queries regarding concerts, songs, and movies by using the following commands:<br>
+        <ul>
+        <li>'concert-this'</li>
+        <li>'spotify-this-song'</li>
+        <li>'movie-this'</li>
+        <li>'do-what-it-says'</li>
 2. Give a high-level overview of how the app is organized
     The app is organized by the following files:
         - README.md: This file contains documentation of what the app's purpose is and how it works.
