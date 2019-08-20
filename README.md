@@ -1,6 +1,6 @@
-This app is called LIRI (Language Interpretation and Recognition Interface). With this app, you can use command line node to take in parameters of movies, songs, or bands in town and returns data from your command.
+#LIRI Node App
 
-To retrieve data, the requests sent uses the axios package for Bands in Town, Spotify and OMDB APIs.
+###This app is called LIRI (Language Interpretation and Recognition Interface). With this app, you can use command line node to take in parameters of movies, songs, or bands in town and returns data from your command. To retrieve data, the requests sent uses the axios package for Bands in Town, Spotify and OMDB APIs.
 
 1. <i>Clearly state the problem the app is trying to solve (i.e. what is it doing and why)</i><br>
     This app answers queries regarding concerts, songs, and movies by using the following commands:<br>
