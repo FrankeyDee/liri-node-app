@@ -1,8 +1,8 @@
-#LIRI Node App
+# LIRI Node App
 
-###This app is called LIRI (Language Interpretation and Recognition Interface). With this app, you can use command line node to take in parameters of movies, songs, or bands in town and returns data from your command. To retrieve data, the requests sent uses the axios package for Bands in Town, Spotify and OMDB APIs.
+### This app is called LIRI (Language Interpretation and Recognition Interface). With this app, you can use command line node to take in parameters of movies, songs, or bands in town and returns data from your command. To retrieve data, the requests sent uses the axios package for Bands in Town, Spotify and OMDB APIs.
 
-1. <i>Clearly state the problem the app is trying to solve (i.e. what is it doing and why)</i><br>
+#### 1. <i>Clearly state the problem the app is trying to solve (i.e. what is it doing and why)</i><br>
     This app answers queries regarding concerts, songs, and movies by using the following commands:<br>
         <ul>
         <li>'concert-this'</li>
@@ -12,7 +12,7 @@
         </ul>
         <br>
 
-2. <i>Give a high-level overview of how the app is organized</i><br>
+#### 2. <i>Give a high-level overview of how the app is organized</i><br>
     The app is organized by the following files:
         <ol>
         <li><b>README.md</b>: This file contains documentation of what the app's purpose is and how it works.</li>
@@ -23,7 +23,7 @@
         <li><b>random.txt</b>: This file is required for the command 'do-what-it-says' to produce desired result.</li>
         <li><b>liri.js</b>: This is the main file containing codes for the variables and functions used by the listed commands above. It also contains codes to import information from the multiple files found in the same directory.</li></ol><br>
         
-3. <i>Give start-to-finish instructions on how to run the app</i><br>
+#### 3. <i>Give start-to-finish instructions on how to run the app</i><br>
     In the terminal, the following commands can be made to produce a result -<br> 
         <ul>
         <li>'node liri.js spotify-this-song (song title)' shows the following information about the song:</li>
@@ -37,41 +37,41 @@
             - Name of venue
             - Venue location
             - Date of event in the format of "MM/DD/YYYY" (using 'moment' to help format date)</ul><br>
-4. Include screenshots, gifs or videos of the app functioning<br> 
-CONCERT-THIS:<br>
-https://youtu.be/5OZZk-i0reE
-<br>
-<img src="/videos/concert-this.gif" width="600" height="400"></img>
-<br>
+#### 4. Include screenshots, gifs or videos of the app functioning<br> 
+    CONCERT-THIS:<br>
+    https://youtu.be/5OZZk-i0reE
+    <br>
+    <img src="/videos/concert-this.gif" width="600" height="400"></img>
+    <br>
 
-SPOTIFY-THIS-SONG:<br>
-https://youtu.be/t2haUSxl-qs
-<br>
-<img src="/videos/spotify-this-song.gif" width="600" height="400"></img>
-<br>
+    SPOTIFY-THIS-SONG:<br>
+    https://youtu.be/t2haUSxl-qs
+    <br>
+    <img src="/videos/spotify-this-song.gif" width="600" height="400"></img>
+    <br>
 
-NO SONG:<br>
-https://youtu.be/qqwY4xxpqm0
-<br>
-<img src="/videos/no-song.gif" width="600" height="400"></img>
-<br>
+    NO SONG:<br>
+    https://youtu.be/qqwY4xxpqm0
+    <br>
+    <img src="/videos/no-song.gif" width="600" height="400"></img>
+    <br>
 
-NO MOVIE:<br>
-https://youtu.be/0gf6Giit6gY
-<br>
-<img src="/videos/no-movie.gif" width="600" height="400"></img>
-<br>
+    NO MOVIE:<br>
+    https://youtu.be/0gf6Giit6gY
+    <br>
+    <img src="/videos/no-movie.gif" width="600" height="400"></img>
+    <br>
 
-DO-WHAT-IT-SAYS:<br>
-https://youtu.be/r6jSel97W1c
-<br>
-<img src="/videos/do-it.gif" width="600" height="400"></img>
-<br>
+    DO-WHAT-IT-SAYS:<br>
+    https://youtu.be/r6jSel97W1c
+    <br>
+    <img src="/videos/do-it.gif" width="600" height="400"></img>
+    <br>
 
-5. Contain a link to a deployed version of the app<br>
+#### 5. Contain a link to a deployed version of the app<br>
 <a href="https://github.com/FrankeyDee/liri-node-app/blob/master/liri.js" target="_blank">https://github.com/FrankeyDee/liri-node-app/blob/master/liri.js</a>
 <br>
-6. Clearly list the technologies used in the app<br>
+#### 6. Clearly list the technologies used in the app<br>
 <ul>
     <li>Javascript</li>
     <li>Nodejs</li>
@@ -89,5 +89,5 @@ https://youtu.be/r6jSel97W1c
     <li>Visual Studio</li>
     <li>Terminal</li>
 </ul><br>    
-7. State your role in the app development<br>
+#### 7. State your role in the app development<br>
 Project Manager, Product Owner, Lead Developer, Lead Designer, Lead Analyst
