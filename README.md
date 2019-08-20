@@ -39,20 +39,40 @@ To retrieve data, the requests sent uses the axios package for Bands in Town, Sp
             - Date of event in the format of "MM/DD/YYYY" (using 'moment' to help format date)</ul><br>
 4. Include screenshots, gifs or videos of the app functioning<br> 
 CONCERT-THIS:<br>
-<img src="./videos/concert-this.gif" width="500" height="300"></img>
+<img src="../videos/concert-this.gif" width="600" height="400"></img>
 <br>
 SPOTIFY-THIS-SONG:<br>
-<img src="./videos/spotify-this-song.gif" width="500" height="300"></img>
+<img src="../videos/spotify-this-song.gif" width="600" height="400"></img>
 <br>
 NO SONG:<br>
-<img src="./videos/no-song.gif" width="500" height="300"></img>
+<img src="../videos/no-song.gif" width="600" height="400"></img>
 <br>
 NO MOVIE:<br>
-<img src="./videos/no-movie.gif" width="500" height="300"></img>
+<img src="../videos/no-movie.gif" width="600" height="400"></img>
 <br>
 DO-WHAT-IT-SAYS:<br>
-<img src="./videos/do-it.gif" width="500" height="300"></img>
+<img src="../videos/do-it.gif" width="600" height="400"></img>
 <br>
-5. Contain a link to a deployed version of the app
-6. Clearly list the technologies used in the app
-7. State your role in the app development
+5. Contain a link to a deployed version of the app<br>
+<a href="https://github.com/FrankeyDee/liri-node-app/blob/master/liri.js" target="_blank">https://github.com/FrankeyDee/liri-node-app/blob/master/liri.js</a>
+<br>
+6. Clearly list the technologies used in the app<br>
+<ul>
+    <li>Javascript</li>
+    <li>Nodejs</li>
+    <li>NPM, Node packages:<ul>
+        <li>Node-Spotify-API</li>
+        <li>Moment</li>
+        <li>axios</li>
+        <li>DotEnv</li>
+        <li>Request</li>
+        </ul>
+        </li>
+    <li>Bands In Town API</li>
+    <li>OMDB API</li>
+    <li>GitHub</li>
+    <li>Visual Studio</li>
+    <li>Terminal</li>
+</ul><br>    
+7. State your role in the app development<br>
+Project Manager, Product Owner, Lead Developer, Lead Designer, Lead Analyst
