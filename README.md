@@ -39,22 +39,20 @@ To retrieve data, the requests sent uses the axios package for Bands in Town, Sp
             - Date of event in the format of "MM/DD/YYYY" (using 'moment' to help format date)</ul><br>
 4. Include screenshots, gifs or videos of the app functioning<br> 
 CONCERT-THIS:<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5OZZk-i0reE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img src="./videos/concert-this.gif" width="500" height="300"></img>
 <br>
 SPOTIFY-THIS-SONG:<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/t2haUSxl-qs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img src="./videos/spotify-this-song.gif" width="500" height="300"></img>
 <br>
 NO SONG:<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qqwY4xxpqm0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-MOVIE-THIS:<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PACGC6oc2_g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img src="./videos/no-song.gif" width="500" height="300"></img>
 <br>
 NO MOVIE:<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0gf6Giit6gY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img src="./videos/no-movie.gif" width="500" height="300"></img>
 <br>
 DO-WHAT-IT-SAYS:<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/r6jSel97W1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<img src="./videos/do-it.gif" width="500" height="300"></img>
+<br>
 5. Contain a link to a deployed version of the app
 6. Clearly list the technologies used in the app
 7. State your role in the app development
