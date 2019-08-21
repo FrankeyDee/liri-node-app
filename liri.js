@@ -59,12 +59,13 @@ function spotifySong(value) {
     .search({ type: 'track', query: value })
     .then(function(response) {
         for (var i = 0; i < 5; i++) {
+            var result = response.tracks.items[i];
             var spotifyResults = 
                 "--------------------------------------------------------------------" +
-                    "\nArtist(s): " + response.tracks.items[i].artists[0].name + 
-                    "\nSong Name: " + response.tracks.items[i].name +
-                    "\nAlbum Name: " + response.tracks.items[i].album.name +
-                    "\nPreview Link: " + response.tracks.items[i].preview_url;
+                    "\nArtist(s): " + result.artists[0].name.join(' ') + 
+                    "\nSong Name: " + result.name +
+                    "\nAlbum Name: " + result.album.name +
+                    "\nPreview Link: " + result.preview_url;
                     
             console.log(spotifyResults);
         }
@@ -80,15 +81,16 @@ function movieThis(value) {
     }  
     axios.get("http://www.omdbapi.com/?apikey=trilogy&t=" + value)
     .then (function(response) {
+            var movieInfo = response.data;
             var movieThis =
                 "----------------------------------------------" + 
-                "\nTitle: " + response.data.Title +
-                "\nYear: " + response.data.Year +
-                "\nIMDB Rating: " + response.data.imdbRating +
-                "\nRotten Tomatoes Rating: " + response.data.Ratings[1].Value +
-                "\nProduced in: " + response.data.Country +
-                "\nPlot: " + response.data.Plot +
-                "\nStarring: " + response.data.Actors;
+                "\nTitle: " + movieInfo.Title +
+                "\nYear: " + movieInfo.Year +
+                "\nIMDB Rating: " + movieInfo.imdbRating +
+                "\nRotten Tomatoes Rating: " + movieInfo.Ratings[1].Value +
+                "\nProduced in: " + movieInfo.Country +
+                "\nPlot: " + movieInfo.Plot +
+                "\nStarring: " + movieInfo.Actors;
             console.log(movieThis);
         }
     )
