@@ -37,11 +37,12 @@ function bandsInTown(value) {
     axios.get("https://rest.bandsintown.com/artists/" + value + "/events?app_id=codingbootcamp")
     .then(function(response) {
         for(var i = 0; i < response.data.length; i++) {
+            var bandData = response.data[i]
             var concertResults =
             "----------------------------------------------" + 
-            "\nVenue Name: " + response.data[i].venue.name + 
-            "\nVenue Location: " + response.data[i].venue.city +
-            "\nDate: " + moment(response.data[i].datetime).format("MM/DD/YYYY");
+            "\nVenue Name: " + bandData = response.data[i].venue.name + 
+            "\nVenue Location: " + bandData.venue.city +
+            "\nDate: " + moment(bandData.datetime).format("MM/DD/YYYY");
         
         console.log(concertResults);
         }
